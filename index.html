@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baccarat Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>Baccarat Predictor</h1>
+  <div id="setup">
+    <label>Number of cards:
+      <select id="numCards">
+        <option value="416">416 (8 decks)</option>
+        <option value="312">312 (6 decks)</option>
+      </select>
+    </label>
+    <p>Simulations: <span id="simCount">--</span></p>
+    <div>
+      <input type="text" id="cardsInput" placeholder="Enter cards (0-9, 1=A)" />
+      <button id="enterBtn">Enter</button>
+    </div>
+  </div>
+
+  <p>Remaining in Shoe: <span id="remainingCards">--</span></p>
+  <p>Next Prediction: <span id="prediction">--</span></p>
+
+  <script src="script.js"></script>
+</body>
+  </html>
